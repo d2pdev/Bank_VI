@@ -4,7 +4,7 @@ namespace Duy2Phong\NganHang;
 /*
  *
  * @author Duy2Phong
- * @link https://poggit.pmmp.io/ci/d2pdev/NganHang/NganHang
+ * @link https://poggit.pmmp.io/ci/d2pdev/Bank_VI/Bank
  *
  *
 */
@@ -77,9 +77,9 @@ class Main extends PluginBase{
 					}
 					if($ar[0] == 'version' or $ar[0] == 'ver'){
 						$sender->sendMessage('§f-> §2Ngân Hàng§f <-');
-						$sender->sendMessage('Phiên bản hiện tại : §e1.1.');
+						$sender->sendMessage('Phiên bản hiện tại : §e1.1.0');
 						$sender->sendMessage('author : Duy2Phong ');
-					  $sender->sendMessage('Cập nhật phiên bản mới nhất tại : ');
+					  $sender->sendMessage('Cập nhật phiên bản mới nhất tại : https://poggit.pmmp.io/ci/d2pdev/Bank_VI/Bank');
 						return true;
 					}
 					if($ar[0] == 'help'){
